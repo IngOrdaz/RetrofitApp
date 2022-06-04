@@ -8,7 +8,7 @@ data class PokemonEntry(
     @SerializedName("name")
     val name: String,
     @SerializedName("types")
-    val type: List<TypeEntry>,
+    val types: List<TypeEntry>,
     @SerializedName("stats")
     val stats:List<StatsEntry>
 
@@ -32,6 +32,6 @@ data class StatsEntry(//solo un nivel
 )
  data class StatEntry(
      @SerializedName("name")
-     val stat_value:Int
+     val stat_value:String
  )
 
