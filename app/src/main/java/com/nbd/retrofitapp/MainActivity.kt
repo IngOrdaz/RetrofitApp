@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
                         Log.d("retrofitresponse", "${stat.stat.stat_value}:${stat.base_stat}")
                     }
                     Log.d("retrofitresponse","type: ${resBody.types[0].type.name}")
+                    Log.d("retrofitresponse","front_default: ${resBody.sprites}")
                 }
             }
 
